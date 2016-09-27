@@ -14,12 +14,19 @@ int main(){
   cin >> image;
   cout << "Please enter the number of images you wish to stack: " << endl;
   cin >> number_of_images;
-  
+  stacker s;
+  s.loadFile("orion_001.ppm");
   return 0; 
 }
 
 
 
+
+
+
+
+
+  
 
 
 
