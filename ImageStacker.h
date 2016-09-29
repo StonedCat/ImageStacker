@@ -29,7 +29,7 @@ class stacker{
 public:
   void Writefile(string file);
   stacker& operator=(stacker LHS);
-  stacker ave_stack(stacker s);
+  stacker ave_stack(stacker s[], int n);
   int get_width();
   int get_height();
   stacker();
